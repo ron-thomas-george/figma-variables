@@ -1,0 +1,69 @@
+{
+  "global": {},
+  "Primitives/Mode 1": {
+    "color": {
+      "brand": {
+        "600": {
+          "value": "#7f56d9",
+          "type": "color",
+          "parent": "Primitives/Mode 1",
+          "description": ""
+        },
+        "700": {
+          "value": "#6941c6",
+          "type": "color",
+          "parent": "Primitives/Mode 1",
+          "description": ""
+        }
+      },
+      "grey": {
+        "300": {
+          "value": "#d0d5dd",
+          "type": "color",
+          "parent": "Primitives/Mode 1",
+          "description": ""
+        },
+        "500": {
+          "value": "#667085",
+          "type": "color",
+          "parent": "Primitives/Mode 1",
+          "description": ""
+        },
+        "700": {
+          "value": "#344054",
+          "type": "color",
+          "parent": "Primitives/Mode 1",
+          "description": ""
+        },
+        "900": {
+          "value": "#101828",
+          "type": "color",
+          "parent": "Primitives/Mode 1",
+          "description": ""
+        }
+      }
+    }
+  },
+  "Tokens/Mode 1": {
+    "surface-primary": {
+      "value": "{color.brand.600}",
+      "type": "color",
+      "parent": "Tokens/Mode 1",
+      "description": ""
+    },
+    "text-primary": {
+      "value": "{color.grey.900}",
+      "type": "color",
+      "parent": "Tokens/Mode 1",
+      "description": ""
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global",
+      "Primitives/Mode 1",
+      "Tokens/Mode 1"
+    ]
+  }
+}
